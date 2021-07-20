@@ -1,0 +1,68 @@
+{
+  "keywordFileContentHash": "5C3EB3721AAAD112258C54BF5A31DB71",
+  "keywordClasses": [
+    {
+      "name": "general.Methods",
+      "keywordMethods": [
+        {
+          "name": "greetings",
+          "parameters": [
+            {
+              "name": "hour",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "waitUntilCondition",
+          "parameters": [
+            {
+              "name": "condition",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Boolean",
+                "unresolvedClassName": "Boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setUpObjectIds",
+          "parameters": [
+            {
+              "name": "id",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
