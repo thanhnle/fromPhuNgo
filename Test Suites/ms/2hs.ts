@@ -81,7 +81,7 @@
       <guid>9c9d930b-ac1b-4ff9-a4f1-b85d46a673ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APIs/rr/ú</testCaseId>
+      <testCaseId>Test Cases/APIs/rr/u1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>95cd0b92-ec78-429f-8634-e1145dfe31fb</guid>
@@ -141,7 +141,7 @@
       <guid>67dbccca-caca-43e6-b30d-f0867dbd2b92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APIs/rr/ú</testCaseId>
+      <testCaseId>Test Cases/APIs/rr/u1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e938c2d8-adee-401f-9556-182e8496ad86</guid>

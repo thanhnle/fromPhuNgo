@@ -21,7 +21,7 @@
       <guid>0ab777c5-a9f4-492c-9331-19c9fa74fb6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APIs/rr/ú</testCaseId>
+      <testCaseId>Test Cases/APIs/rr/u1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0450e56f-d5ca-4e27-9c20-b358a3758dbc</guid>
