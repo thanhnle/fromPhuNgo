@@ -57,7 +57,7 @@ class WebHelper {
 	@Keyword
 	def clickElement(TestObject to) {
 		try {
-			WebElement element = WebUiBuiltInKeywords.findWebElement(to);
+			WebElement element = WebUI.findWebElement(to);
 			KeywordUtil.logInfo("Clicking element")
 			element.click()
 			KeywordUtil.markPassed("Element has been clicked")
@@ -76,14 +76,14 @@ class WebHelper {
 	 */
 	@Keyword
 	def List<WebElement> getHtmlTableRows(TestObject table, String outerTagName) {
-		WebElement mailList = WebUiBuiltInKeywords.findWebElement(table)
+		WebElement mailList = WebUI.findWebElement(table)
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}
 
 	@Keyword
 	def hideElement(String elementSelector) {
-		String js = "var footerElem = document.querySelector('" + elementSelector + "'); footerElem.style.display = 'none';";
+		String js = "var elem = document.querySelector('" + elementSelector + "'); elem.style.display = 'none';";
 		WebUI.executeJavaScript(js, null);
 	}
 }
