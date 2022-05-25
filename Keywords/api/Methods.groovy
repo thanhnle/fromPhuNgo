@@ -29,7 +29,7 @@ public class Methods {
 		Map jsonBody = jsonSlurper.parseText(ro.getResponseBodyContent())
 		return jsonBody
 	}
-	
+
 	@Keyword
 	def verifyJsonProperties(ResponseObject ro, List<String> propertiesList) {
 		JsonSlurper jsonSlurper = new JsonSlurper()

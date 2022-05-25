@@ -39,6 +39,10 @@ WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
 WebUI.waitForElementVisible(findTestObject("dQA/f")
 	, GlobalVariable.DEFAULT_TIMEOUT)
 
+CustomKeywords.'utils.WebHelper.hideElement'("#fixedban")
+
+CustomKeywords.'utils.WebHelper.hideElement'("footer")
+
 WebUI.takeScreenshotAsCheckpoint("form" + id + suiteName)//directory + objectIds.get("formId") + fileExtension)
 
 WebUI.setText(findTestObject('dQA/fn'), firstName)
