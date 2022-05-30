@@ -47,21 +47,21 @@ Thread.sleep(3000)
 
 WebUI.takeScreenshotAsCheckpoint("form" + id + suiteName)//directory + objectIds.get("formId") + fileExtension)
 
-WebUI.setText(findTestObject('dQA/fn'), "Johnny Johnny")
+WebUI.setText(findTestObject('dQA/fn'), firstName)
 
 WebUI.takeElementScreenshotAsCheckpoint("firstName" + id + suiteName, findTestObject('dQA/fn'))//directory + objectIds.get("firstNameId") + fileExtension, findTestObject('dQA/fn'))
 
-WebUI.setText(findTestObject('dQA/ln'), "Yes Papa Yes Papa")
+WebUI.setText(findTestObject('dQA/ln'), lastName)
 
 WebUI.takeElementScreenshotAsCheckpoint("lastName" + id + suiteName, findTestObject('dQA/ln'))//directory + objectIds.get("lastNameId") + fileExtension, findTestObject('dQA/ln'))
 
-WebUI.setText(findTestObject('dQA/em'), "LordVanonOfGlaxian@lilith.edu.com")
+WebUI.setText(findTestObject('dQA/em'), email)
 
 WebUI.takeElementScreenshotAsCheckpoint("email" + id + suiteName, findTestObject('dQA/em'))//directory + objectIds.get("emailId") + fileExtension, findTestObject('dQA/em'))
 
 CustomKeywords.'qademo.Methods.selectGender'(gender)
 
-WebUI.setText(findTestObject('dQA/nb'), "3333333333")
+WebUI.setText(findTestObject('dQA/nb'), userNumber)
 
 WebUI.takeElementScreenshotAsCheckpoint("userNumber" + id + suiteName, findTestObject('dQA/nb'))//directory + objectIds.get("userNumberId") + fileExtension, findTestObject('dQA/nb'))
 
