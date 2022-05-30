@@ -43,6 +43,8 @@ CustomKeywords.'utils.WebHelper.hideElement'("#fixedban")
 
 CustomKeywords.'utils.WebHelper.hideElement'("footer")
 
+Thread.sleep(2000)
+
 WebUI.takeScreenshotAsCheckpoint("form" + id + suiteName)//directory + objectIds.get("formId") + fileExtension)
 
 WebUI.setText(findTestObject('dQA/fn'), firstName)
