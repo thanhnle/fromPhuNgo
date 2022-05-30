@@ -49,21 +49,21 @@
       <name>id</name>
    </variable>
    <variable>
-      <defaultValue>'Phu'</defaultValue>
+      <defaultValue>'Johnny Johnny'</defaultValue>
       <description></description>
       <id>41b6b472-7c4e-420f-8202-92f4397b1ae8</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'Ngo'</defaultValue>
+      <defaultValue>'Yes Papa'</defaultValue>
       <description></description>
       <id>6a123d0e-33da-4d8c-9ca1-28e85eeea838</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
-      <defaultValue>'huyphu111@gmail.com'</defaultValue>
+      <defaultValue>'subscribeToT-Series@hotmail.com'</defaultValue>
       <description></description>
       <id>55f3302e-6d45-4be2-9d6f-f78a61f2005c</id>
       <masked>false</masked>
@@ -77,7 +77,7 @@
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>'0123456789'</defaultValue>
+      <defaultValue>'3333333333'</defaultValue>
       <description></description>
       <id>1ed782e0-5f67-448b-b992-b53c0d713424</id>
       <masked>false</masked>
