@@ -45,7 +45,7 @@ CustomKeywords.'utils.WebHelper.hideElement'("footer")
 
 Thread.sleep(3000)
 
-WebUI.takeScreenshotAsCheckpoint("form" + id + suiteName)//directory + objectIds.get("formId") + fileExtension)
+WebUI.takeScreenshotAsCheckpoint("form" + id + suiteName) // ("form" + id + suiteName)//directory + objectIds.get("formId") + fileExtension)
 
 WebUI.setText(findTestObject('dQA/fn'), "Johnny Johnny")
 
