@@ -30,6 +30,14 @@ class NewTestListener {
 //			testCaseContext.skipThisTestCase()
 //		}
 //	}
+	@BeforeTestCase
+	def beforeTestCase(TestCaseContext testCaseContext) {
+		String testCasePath = testCaseContext.getTestCaseId();
+		if (testCasePath.contains("/book/bs")) {
+			testCaseContext.skipThisTestCase();
+		}
+	}
+	
 	
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {

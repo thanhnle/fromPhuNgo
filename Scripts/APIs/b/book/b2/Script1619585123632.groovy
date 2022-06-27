@@ -21,7 +21,7 @@ def response = WS.sendRequest(findTestObject('API/Bs/Book/bookisbn', [('ISBN') :
 
 Map jsonBody = CustomKeywords.'api.Methods.toJson'(response)
 
-WS.verifyMatch(jsonBody.get("title"), "You Don't Know JS", false)
+WS.verifyMatch(jsonBody.get("title"), "You Don't Know JavaScript", false)
 
 WS.verifyMatch(jsonBody.get("author"), "Kyle Simpson", false)
 
