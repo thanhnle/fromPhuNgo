@@ -33,7 +33,7 @@ class NewTestListener {
 	@BeforeTestCase
 	def beforeTestCase(TestCaseContext testCaseContext) {
 		String testCasePath = testCaseContext.getTestCaseId();
-		if (testCasePath.contains("/book/bs")) {
+		if (testCasePath.contains("book") || testCasePath.contains("Test Cases/skip/")) {
 			testCaseContext.skipThisTestCase();
 		}
 	}

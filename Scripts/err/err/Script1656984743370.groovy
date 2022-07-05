@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject("js/td"))
+ThisScriptWill100percentError
 
-WS.verifyResponseStatusCode(response, 201)
-
-CustomKeywords.'api.Methods.verifyJsonProperties'(response, ["id", "userId", "title", "completed"])
+assert 1 == 1: "I don't know this?" 

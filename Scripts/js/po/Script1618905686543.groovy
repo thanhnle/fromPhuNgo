@@ -19,6 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 def response = WS.sendRequest(findTestObject("js/po"))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 201)
 
 CustomKeywords.'api.Methods.verifyJsonProperties'(response, ["id", "userId", "title", "body"])
